@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <jar.manifest.mainclass>Pratica62</jar.manifest.mainclass>
+        <jar.manifest.mainclass>Pratica91</jar.manifest.mainclass>
     </properties>
     
     <build>
