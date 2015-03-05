@@ -1,0 +1,10 @@
+
+Crie um projeto Maven no Netbeans clonando o repositório https://github.com/whbogado/fp2-template-basico.git.
+Modifique o nome do grupo para utfpr.ct.dainf.if62c.pratica, o nome do artefato para Pratica-7.2 e o nome do projeto para FP2 :: Prática :: 7.2.
+Dentro do pacote padrão crie a classe Pratica72 que implementará o seu programa principal.
+Dentro pacote utfpr.ct.dainf.if62c.pratica crie a classe ContadorPalavras. Esta classe deve ter um construtor público que receba o caminho de um arquivo de texto cujas palavras serão contadas.
+Na classe ContadorPalavras declare a propriedade privada reader do tipo BufferedReader. Esta propriedade deve ser inicializada no construtor usando o arquivo recebido como argumento.
+Na classe ContadorPalavras implemente o método público getPalavras(). O objetivo é contar o número de ocorrências de cada palavra neste arquivo. Pontuação e espaços em branco devem ser ignorados. Este método deve retornar um mapa cuja chave seja a palavra e cujo valor seja o número de ocorrências (inteiro). Usando o reader, o método deve ler o arquivo, contar as palavras e preencher o mapa. Assegure que o arquivo seja fechado após a leitura.
+No programa principal, solicite ao usuário que digite o nome (caminho completo) de um arquivo de texto. Instancie um ContadorPalavras com este arquivo. Use o método getPalavras() para obter as palavras encontradas.
+Grave em outro arquivo texto a lista de palavras e o número de ocorrências em formato CSV, ou seja, cada linha do arquivo gerado deve conter palavra,número de ocorrências. Antes de gravar o arquivo, ordene as palavras pelo número de ocorrências, em ordem descendente. O arquivo de saída deve ser gerado na mesma pasta e ter o nome original mais o sufixo .out, por exemplo, se o arquivo de entrada era /tmp/livro.txt, o arquivo de saída deve ser /tmp/livro.txt.out.
+

@@ -1,0 +1,8 @@
+Cheque compensado
+Saque caixa
+Credito autorizado
+Pgto boleto
+Debito energia
+Cheque compensado
+Saque agencia
+Cheque devolvido
